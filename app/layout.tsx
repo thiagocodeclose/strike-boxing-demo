@@ -4,6 +4,7 @@ import { Barlow_Condensed, Barlow } from 'next/font/google';
 import { getKorivaConfig, buildCssVars } from '@/lib/koriva-config';
 import './globals.css';
 
+import { KorivaLivePreview } from '@/components/KorivaLivePreview';
 const heading = Barlow_Condensed({ subsets: ['latin'], weight: ['600', '700', '800', '900'], variable: '--font-heading' });
 const body    = Barlow({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-body' });
 
@@ -24,6 +25,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" style={vars as React.CSSProperties}>
       <body className={`${heading.variable} ${body.variable} bg-sk-bg text-sk-text antialiased`}>
         {children}
+        <KorivaLivePreview />
       </body>
     </html>
   );
