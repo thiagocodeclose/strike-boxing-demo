@@ -118,7 +118,7 @@ function Hero() {
             </span>
           </div>
 
-          <h1 className="font-heading font-black text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-4">
+          <h1 data-cg-el="hero_headline_1" className="font-heading font-black text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-4">
             WHERE<br />
             <span className="text-sk-red">FIGHTERS</span><br />
             ARE MADE
