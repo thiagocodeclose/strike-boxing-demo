@@ -113,7 +113,7 @@ function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-sk-red/20 border border-sk-red/40 px-3 py-1.5 mb-6">
             <Zap size={12} className="text-sk-red" />
-            <span className="text-sk-red font-heading font-bold text-xs uppercase tracking-[0.2em]">
+            <span data-cg-el="hero_eyebrow" className="text-sk-red font-heading font-bold text-xs uppercase tracking-[0.2em]">
               Miami's #1 Boxing Boutique
             </span>
           </div>
@@ -124,7 +124,7 @@ function Hero() {
             ARE MADE
           </h1>
 
-          <p className="text-[#9E9E9E] text-lg mb-2 max-w-xl">
+          <p data-cg-el="hero_subtitle" className="text-[#9E9E9E] text-lg mb-2 max-w-xl">
             {studioInfo.subheadline}
           </p>
           <p className="text-sk-red font-heading font-bold text-sm uppercase tracking-[0.2em] mb-8">
