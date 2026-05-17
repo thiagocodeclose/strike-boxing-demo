@@ -556,7 +556,7 @@ function Footer() {
         </div>
         <div className="border-t border-[#2A2A2A] pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-[#555] text-xs">© 2026 Strike Boxing Miami. All rights reserved.</p>
-          <p className="text-[#555] text-xs">Powered by <span className="text-sk-red">Koriva Sites</span></p>
+          <p className="text-[#555] text-xs">Powered by <span className="text-sk-red">Garrison365 Sites</span></p>
         </div>
       </div>
     </footer>
